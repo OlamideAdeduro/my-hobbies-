@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hobbies Event</title>
+</head>
+<body>
+
+<h2>My Hobbies</h2>
+
+<button id="hobbyBtn">Click to See My Hobbies</button>
+
+<p id="result"></p>
+
+<script>
+    // Select the button
+    const button = document.getElementById("hobbyBtn");
+
+    // Add a click event
+    button.addEventListener("click", function () {
+        document.getElementById("result").innerHTML =
+            "My hobbies are reading romance books, coding, going to the gym, travelling, and trying new cafés.";
+    });
+</script>
+
+</body>
+</html>
